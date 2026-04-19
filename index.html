@@ -27,7 +27,9 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#servizi">Servizi</a></li>
                     <li class="nav-item"><a class="nav-link" href="#progetti">Progetti</a></li>
-                    <li class="nav-item"><a class="nav-link btn btn-primary btn-sm text-white ms-lg-3" href="contatti.html">Contatti</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">Faq</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary btn-sm text-white ms-lg-1" href="contatti.html">Contatti</a></li>
                 </ul>
             </div>
         </div>
@@ -81,9 +83,158 @@
     </div>
     </section>
 
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>I nostri traguardi</h3>
+                <div class="mb-3">
+                    <span>Soddisfazione Clienti</span>
+                    <div class="progress" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-success" style="width: 95%">95%</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <span>Progetti Completati</span>
+                    <div class="progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-info" style="width: 75%">75%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Attenzione!</strong> Nuova esercitazione di Bootstrap disponibile nel repository.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-5">I nostri piani</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card mb-5 mb-lg-0 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-muted text-uppercase text-center">Base</h5>
+                            <h6 class="card-price text-center">€0<span class="period">/mese</span></h6>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li><i class="bi bi-check"></i> 1 Progetto</li>
+                                <li><i class="bi bi-check"></i> Supporto Community</li>
+                            </ul>
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-outline-primary">Scegli Base</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card mb-5 mb-lg-0 shadow border-primary">
+                        <div class="card-body">
+                            <span class="badge rounded-pill bg-primary float-end">Popolare</span>
+                            <h5 class="card-title text-primary text-uppercase text-center">Pro</h5>
+                            <h6 class="card-price text-center">€29<span class="period">/mese</span></h6>
+                            <hr>
+                            <ul class="list-unstyled">
+                                <li><strong>Progetti illimitati</strong></li>
+                                <li>Supporto Prioritario</li>
+                            </ul>
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-primary">Scegli Pro</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <h2 class="mb-4">Confronto Tecnico</h2>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Caratteristica</th>
+                        <th>Astro</th>
+                        <th>Bootstrap</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Velocità</td>
+                        <td>Alta</td>
+                        <td>Media</td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td>Custom</td>
+                        <td>Componenti Pronti</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <figure class="text-center mt-5">
+            <blockquote class="blockquote">
+                <p>"Joestar, Joseph Joestar. Ma puoi chiamarmi JoJo"</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                 Joseph Joestar in <cite title="Source Title">Le bizzarre avventure di JoJo</cite>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section id="faq" class="container py-5">
+        <h2 class="text-center mb-5">Domande Frequenti</h2>
+        <div class="accordion shadow-sm" id="accordionSpaziodiRossella">
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        Cos'è Bootstrap 5?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionSpazioGenesi">
+                    <div class="accordion-body">
+                        È il framework CSS più famoso al mondo. Permette di creare siti <strong>responsive</strong> (che si vedono bene su mobile) usando classi pronte all'uso.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                        Il sito è ottimizzato per i DevTools?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionSpazioGenesi">
+                    <div class="accordion-body">
+                        Certamente! Usando le classi standard di Bootstrap, il codice risulta pulito e facile da ispezionare tramite gli strumenti lato client del browser.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                        Come posso contattare lo staff?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionSpazioGenesi">
+                    <div class="accordion-body">
+                        Puoi usare la pagina dedicata ai contatti che trovi nel menu in alto.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
-            <p class="mb-0">&copy; 2026 Spazio di Rossella - Creato con il ❤️ da Rossella (ovviamente)</p>
+            <p class="mb-0">&copy; 2026 Spazio di Rossella - Creato con il ❤️ da Rossella (duhhhhh)</p>
             <small class="text-secondary">Email: rossella@example.com</small>
         </div>
     </footer>
