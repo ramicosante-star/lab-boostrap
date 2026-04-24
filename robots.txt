@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://laboratorio-bootstrap.github.io/lab-boostrap/sitemap.xml
